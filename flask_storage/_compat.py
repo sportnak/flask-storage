@@ -1,7 +1,7 @@
 import sys
 try:
     from urlparse import urljoin
-    import urllib2 as http
+    import urllib3 as http
 except ImportError:
     from urllib.parse import urljoin
     from urllib import request as http
